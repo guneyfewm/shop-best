@@ -22,3 +22,9 @@ In the cart page you can see that our total is calculated based on the amount pr
 You can add and delete items from the cart, by adding the same item more than one time you stack it in a slot.
 The image that gets rendered here is the "src" property of our object (product) and not "currentSrc" or "src2", "src3"
 
+# Product Slider
+![image](https://user-images.githubusercontent.com/116850173/200361261-e80a2736-91e3-42c6-ade5-476d180b4a2f.png)
+![image](https://user-images.githubusercontent.com/116850173/200361468-e8567312-a15c-4b4c-ad18-5a6acfd16612.png)
+![image](https://user-images.githubusercontent.com/116850173/200361597-3e225030-ad04-4569-b429-d5e7832b5818.png)
+
+You can change the currentSrc property of a product object by dispatching a slider reducer (by clicking the buttons that are highlighted)
