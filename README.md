@@ -12,7 +12,8 @@ By clicking on the add to cart button you dispatch a reducer function and update
 By clicking on the slider buttons you dispatch a new reducer and change the currentSrc property to either currentSrc1, currentSrc2 or currentSrc3
 Each item has their own id's that way we can make them stack into each other in our cart state (which is displayed in the cart page).
 # Catalog
-![image](https://user-images.githubusercontent.com/116850173/200359286-c525e2ef-bec1-4af7-b289-7ff31460545d.png)
+![image](https://user-images.githubusercontent.com/116850173/200363346-ca1b7a80-68b6-4c80-8b4d-66993f248414.png)
+
 By clicking the buttons above the products section you change what gets rendered on the screen.
 You can select to render either best selling, new or sunglasses state of our application.
 In the product section we map our state and put it in a div (which is the products container. The yellow background one)
