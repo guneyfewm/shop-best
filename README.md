@@ -1,46 +1,18 @@
-# Getting Started with Create React App and Redux
+# ShopBest An Ecommerce Glasses Shop
+## Made with react, redux toolkit, bootstrap and react router dom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Preview
+![shopbest](https://user-images.githubusercontent.com/116850173/200358098-f10ee55f-fe7c-423e-a955-3c60bd87e062.gif)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Home Page
+![image](https://user-images.githubusercontent.com/116850173/200357588-742fd54d-8819-4b07-ab78-f9040d9ab356.png)
+You can add items to cart or change the currentSrc property of our appslice by clicking on the slider buttons.
+Every item you add into your cart is stored in local storage.
+By clicking on the add to cart button you dispatch a reducer function and update the state of the application.
+By clicking on the slider buttons you dispatch a new reducer and change the currentSrc property to either currentSrc1, currentSrc2 or currentSrc3
+Each item has their own id's that way we can make them stack into each other in our cart state (which is displayed in the cart page).
+# Catalog
+![image](https://user-images.githubusercontent.com/116850173/200359286-c525e2ef-bec1-4af7-b289-7ff31460545d.png)
+By clicking the buttons above the products section you change what gets rendered on the screen.
+You can select to render either best selling, new or sunglasses state of our application.
+In the product section we map our state and put it in a div (which is the products container. The yellow background one)
